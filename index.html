@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Website</title>
+    <link rel="stylesheet" href="/input.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body class="bg-black m-0 p-0 text-white">
+    <div class="text-center text-4xl font-extrabold my-4 mb-8"><h1 class="my-2">Dog Photo</h1></div>
+
+    <div class="my-6 mx-auto m-1">
+        <div id="breedName" class="text-center my-1 mb-4 text-gray-400"><h4>Breed name : </h4></div>
+        <div id="dogimageDiv" class="flex justify-center  "><img class="h-72 w-72 md:h-96 md:w-96 object-cover rounded-md border-[1px] border-white" src="/Labrador.jpg" alt="dog is on the way"/></div>
+    </div>
+    
+
+    <div id="changeBtn" class="my-1 mb-24 p-4 flex justify-center"><button class="bg-black py-4 px-8 border-2 border-white rounded-lg text-xl font-bold hover:border-blue-400 hover:text-blue-400" onclick="changeImgOnClick()">Change Photo</button></div>
+
+
+    <script src="/dogApi.js"></script>
+</body>
+</html>
