@@ -19,11 +19,11 @@ const updateDogImage = async () => {
 
     // console.log("Image url is : ");
     let dogImgUrl = parsedData.message;
-    console.log(dogImgUrl);
+    // console.log(dogImgUrl);
 
     let breed = breedName(dogImgUrl);
     // console.log("breed is:")
-    console.log(breed)
+    // console.log(breed);
 
     if (parsedData.status === "success") {
         dogImageDiv.innerHTML = `<img class="h-72 w-72 md:h-96 md:w-96 object-cover rounded-md border-[1px] border-white" src="${dogImgUrl}" alt="dog is on the way"/>`;
